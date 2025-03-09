@@ -51,3 +51,13 @@ console.log(undefined>= 0);
 
 // === also check the datatypes
 console.log("2" === 2)
+
+
+//more datatypes 
+//premetive and non premetive
+
+//premitive datatypes (call by value) 
+// 7types (1) string  , number , BOlean, null, undefined , symbol, BigInt, 
+
+
+//Reference Type (Non primitive)
