@@ -29,12 +29,43 @@ const newArray = myArray.join()
 // console.log(typeof(newArray))
 
 //slice and splice 
-console.log("A" , myArray);
+// console.log("A" , myArray);
 
-const myNewArr1 = myArray.slice(1,3)
+// const myNewArr1 = myArray.slice(1,3)
 
-console.log(myNewArr1);
-console.log("B", myArray);
+// console.log(myNewArr1);
+// console.log("B", myArray);
 
 
-const myNewArr2 = myArray.splice(1,3) 
+// const myNewArr2 = myArray.splice(1,3) 
+
+//array part -> 2
+
+const marvel_heros = ["Akshat", "srivastava", "Harshit" , "Srivastava"];
+const dc_heros= ["SuperMan" , "Flash", "batman"];
+
+// marvel_heros.push(dc);
+// console.log(marvel_heros);
+
+// let allHeros = marvel_heros.concat(dc_heros);
+// console.log(allHeros);
+
+
+const all_new_heros = [...marvel_heros, ...dc_heros];
+
+
+// console.log(all_new_heros)
+const anotherArray = [1,2,3,4,[43,32,12], 5,[99,[321,222],88],6];
+
+// const myRealArray = anotherArray.flat(Infinity);
+// console.log(myRealArray);
+
+console.log(Array.isArray("Akshatsruvastava"));
+console.log(Array.from("Hitesh"))
+console.log(Array.from({name: "Akshat"})) //intersting
+
+let score1 = 100;
+let score2 = 300;
+let score3 = 433;
+
+console.log(Array.of(score1, score2, score3));
