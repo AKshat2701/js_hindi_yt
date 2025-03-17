@@ -24,12 +24,14 @@
 
 
 
-function loginUserMessage(userName = "sam"){
-    if(!userName){
-        console.log("Please enter a username");
-        return;
-    }
-    return `${userName} just logged in `;
-} 
+// function loginUserMessage(userName = "sam"){
+//     if(!userName){
+//         console.log("Please enter a username");
+//         return;
+//     }
+//     return `${userName} just logged in `;
+// } 
 // console.log(loginUserMessage("Akshat"));
-console.log(loginUserMessage('Akshat'))
+// console.log(loginUserMessage('Akshat'))
+
+
