@@ -28,22 +28,40 @@
 //     console.log(`Each character is ${greets}`);
 // }
 
- const map = new Map();
- map.set('IN', 'India')
- map.set('USA', 'United States of america')
- map.set('Fr', 'france')
+//  const map = new Map();
+//  map.set('IN', 'India')
+//  map.set('USA', 'United States of america')
+//  map.set('Fr', 'france')
 
 //  console.log(map)
 
-for(const [key,value] of map){
-    // console.log(key , ':-', value);
-}
+// for(const [key,value] of map){
+//     // console.log(key , ':-', value);
+// }
 
-const myObject = {
-    game1 : 'NFS',
-    game2  : 'SPiderman'
-}
+// const myObject = {
+//     game1 : 'NFS',
+//     game2  : 'SPiderman'
+// }
 
 // for(const [key, value] of myObject ){
 //     console.log(key, ' is ', value);
 // }
+
+
+// const myObject = {
+//     js: "JAvascript",
+//     cpp: "C++",
+//     rb: "Ruby",
+//     py: "Python"
+// }
+
+// for(const key in myObject){
+//     // console.log(`${key} shortcut is for ${myObject[key]}`)
+// }
+
+const programming = ["js" , "rb" , "py", "java", 'cpp'];
+
+for(const key in programming){
+    console.log(programming[key]);
+}
