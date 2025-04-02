@@ -1,7 +1,6 @@
 // function one() {
 
-//     const userName = "Hitesh";
-
+//     const userName =
 //     function two() {
 //         const website = "youtube";
 //         console.log(userName);
